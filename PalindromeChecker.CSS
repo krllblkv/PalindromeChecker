@@ -1,1 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Geneva, Tahoma, sans-serif;
+  background-color: #f8f8ff;
+  color: #4682b4;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.logo {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.palindrome-div {
+  width: min(100vw, 450px);
+  min-height: 100px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #4682b4;
+  box-shadow: 0 5px 50px #9678b6;
+}
+
+label {
+  color: #f8f8ff;
+  margin-bottom: 20px;
+}
+
+.palindrome-btn {
+  width: 90px;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #9678b6;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 5px #9678b6, 0 0 25px #9678b6;
+}
+
+.palindrome-btn:hover {
+box-shadow: 0 0 5px pink, 0 0 25px pink,
+0 0 50px pink, 0 0 100px pink, 0 0 200px pink;
+}
+
+.palindrome-input {
+  height: 30px;
+  width: 250px;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid #9678b6;
+}
+
+.palindrome-input:focus {
+  border-bottom: 3px solid #9678b6;
+}
+
+.palindrome-input::placeholder {
+  text-align: center;
+}
+
+.user-input {
+  font-size: 1.4rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.results-div {
+  overflow-y: auto;
+  word-wrap: break-word;
+  min-height: 50px;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.palindrome-definition-div {
+  width: min(100vw, 450px);
+  font-size: 1.3rem;
+  min-height: 140px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.palindrome-definition {
+  vertical-align: middle;
+  text-align: center;
+}
 
